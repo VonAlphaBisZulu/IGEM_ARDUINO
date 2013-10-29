@@ -18,8 +18,8 @@
 #define ledG	(13)
 #define Poti	(A0)
 #define Button	(A1)
-#define Temp	(A2)
-#define Wat		(A3)
+#define Temp	(14)
+#define Wat	(A5)
 
 #define shift8to32(a,b,c,d) (d << 24) | (c << 16) | (b << 8) | a
 #define shift8to16(a,b) (b << 8) | a
